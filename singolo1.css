@@ -1,21 +1,41 @@
 @import './assets/fonts.css';
 
+body {
+    width: 1020px;
+}
 header {
     background-color: #2d303a;
+  
+}
+.col-xl-2 {
+    padding: 29px 38px;
+}
+.col-xl-5 {
+    padding: 26px 37px;
+
 }
 
 ul, li {
     display: block;
     padding: 0;
     margin: 0;
+    height: 96px;
 }
 
 .menu-bar {
-    padding: 35px 0;
+    
     color: #ffffff;
     font-family: 'Open Lato Bold';
     font-size: 25px;
+    height: 95px;
+   
+}
 
+h1 {
+    font-family: 'Open Lato Bold';
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
 }
 
 .menu_item  a {
@@ -27,4 +47,87 @@ ul, li {
 
 .redtext {
     color: #f06c64;
+}
+.header {
+    background-color: #f06c64;
+    height: 600px;
+    background-size: cover;
+    width: 100%;
+}
+.fon_vert {
+    position: absolute;
+    top: 213px;
+    left: 126px;
+    width: 187px;
+    height: 332px;
+    z-index: 50;
+    background-image: url(./assets/Fon_vert.png); 
+    background-position: -14px -134px;   
+}
+
+.telefon__vert {
+    position: absolute;
+    left: 112px;
+    top: 148px;
+    width: 214px;
+    height: 457px;
+    z-index: 40;
+}
+.ten__vert {
+    opacity: 15%;
+    position: absolute;
+    left: 112px;
+    top: 148px;
+    width: 240px;
+    height: 480px;
+    z-index: 20;
+}
+
+
+.ten__goriz {
+    opacity: 15%;
+    position: absolute;
+    left: 214px;
+    top: 135px;
+    width: 480px;
+    height: 240px;
+    z-index: 20;
+}
+
+.fon_goriz {
+    position: absolute;
+    left: 273px;
+    top: 149px;
+    width: 332px;
+    height: 187px;
+    z-index: 50;
+    background-image: url(./assets/Fon_goriz.png); 
+    background-position: -125px -120px;   
+}
+
+.telefon__goriz {
+    position: absolute;
+    left: 213px;
+    top: 135px;
+    width: 457px;
+    height: 214px;
+    z-index: 40;
+}
+
+.chev-left {
+    position: absolute;
+    left: 38px;
+    top: 369px;
+    z-index: 80;    
+}
+
+.chev-right {
+    position: absolute;
+    left: 963px;
+    top: 369px;
+    z-index: 80;   
+}
+
+p {
+    color: #ca4549; 
 }
