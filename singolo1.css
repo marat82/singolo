@@ -5,7 +5,7 @@ body {
 }
 header {
     background-color: #2d303a;
-  
+   position: relative;
 }
 .col-xl-2 {
     padding: 29px 38px;
@@ -53,10 +53,11 @@ h1 {
     height: 600px;
     background-size: cover;
     width: 100%;
+    position: relative;
 }
 .fon_vert {
     position: absolute;
-    top: 213px;
+    top: 118px;
     left: 126px;
     width: 187px;
     height: 332px;
@@ -68,7 +69,7 @@ h1 {
 .telefon__vert {
     position: absolute;
     left: 112px;
-    top: 148px;
+    top: 53px;
     width: 214px;
     height: 457px;
     z-index: 40;
@@ -77,7 +78,7 @@ h1 {
     opacity: 15%;
     position: absolute;
     left: 112px;
-    top: 148px;
+    top: 53px;
     width: 240px;
     height: 480px;
     z-index: 20;
@@ -87,8 +88,8 @@ h1 {
 .ten__goriz {
     opacity: 15%;
     position: absolute;
-    left: 214px;
-    top: 135px;
+    left: 427px;
+    top: 174px;
     width: 480px;
     height: 240px;
     z-index: 20;
@@ -96,8 +97,8 @@ h1 {
 
 .fon_goriz {
     position: absolute;
-    left: 273px;
-    top: 149px;
+    left: 485px;
+    top: 188px;
     width: 332px;
     height: 187px;
     z-index: 50;
@@ -107,8 +108,8 @@ h1 {
 
 .telefon__goriz {
     position: absolute;
-    left: 213px;
-    top: 135px;
+    left: 425px;
+    top: 174px;
     width: 457px;
     height: 214px;
     z-index: 40;
@@ -117,17 +118,99 @@ h1 {
 .chev-left {
     position: absolute;
     left: 38px;
-    top: 369px;
+    top: 274px;
     z-index: 80;    
 }
 
 .chev-right {
     position: absolute;
     left: 963px;
-    top: 369px;
+    top: 274px;
     z-index: 80;   
 }
 
 p {
     color: #ca4549; 
+}
+
+.service {
+    height: 500px;
+    background-color: #f2f2f2;
+    position: relative;
+}
+
+h3  {
+    color: #666d89;
+    font-family: 'Open Lato Black';
+    font-size: 30px;
+    padding: 59px 40px 0px 40px;
+    margin: 0;
+}
+
+.text-services {
+    color: #767e9e;
+    font-family: 'Open Lato Light';
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 150%;
+    padding: 20px 30px 50px 40px;
+    margin: 0;
+}
+
+.table-services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 120px 120px;
+    width: 900px;
+    left: 40px;
+    position: absolute;
+}
+
+
+.boxtext {
+    color: #767e9e;
+    font-family: 'Open Lato Regular';
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    font-size: 12.2px;
+    line-height: 21.56px;
+   }
+
+.box {
+    width: 320px;
+    height: 125px;
+    position: relative;
+    
+}
+
+.headerbox {
+    font-family: 'Open Lato Black';
+    font-size: 18px;
+    color: #666d89;
+    position: absolute;
+    top: 0;
+    left: 80px;
+}
+
+.lineservice {
+    position: absolute;
+    width: 1020px;
+    height: 7px;
+    background-color: #ffffff;
+    bottom: 0;
+}
+.lineSlider {
+    position: absolute;
+    width: 1020px;
+    height: 7px;
+    background-color: #ea676b;
+    bottom: 0;
+}
+.lineHeader {
+    position: absolute;
+    width: 1020px;
+    height: 7px;
+    background-color: #323746;
+    bottom: 0;
 }
