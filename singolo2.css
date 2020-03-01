@@ -7,8 +7,9 @@ body {
 }
 /*Портфолио*/
 .portfolio {
-    padding: 61px 40px 73px 40px;
+    padding: 61px 40px 70px 40px;
     background-color: #2d303a;
+    position: relative;
 }
 .portfolio button {
     color: #767e9e;
@@ -49,3 +50,22 @@ p {
     grid-column-gap: 20px;
     grid-row-gap: 16px;
 }
+.linePortfolio {
+    position: absolute;
+    width: 1020px;
+    height: 7px;
+    background-color: #323746;
+    bottom: 0;
+    left: 0;
+}
+    /*О нас*/
+.About_Us {
+    padding: 61px 40px 73px 40px;
+    background-color: #f2f2f2;
+    position: relative;
+} 
+.aboutus_text {
+    line-height: 30px;
+    margin-top: 18px;
+    margin-bottom: 16px;
+}   
