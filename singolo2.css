@@ -20,6 +20,13 @@ body {
     padding: 3px 5px;
     margin-right: 8px;
     margin-top: 0px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.portfolio button:hover {
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
 }
 h2 {
     color: #666d89;
@@ -29,9 +36,16 @@ h2 {
     margin: 0;
 }
 p {
-    color: #666d89;
+    color: #767e9e;
     font-size: 18px;
     font-family: 'Open Lato Light';
     margin-top: 20px;
     margin-bottom: 16px;
+}
+.row {
+    display: grid;
+    grid-template-columns: 220px 220px 220px 220px;
+    grid-template-rows: 190px 190px 190px;
+    grid-column-gap: 20px;
+    grid-row-gap: 16px;
 }
