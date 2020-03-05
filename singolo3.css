@@ -1,0 +1,123 @@
+@import './assets/fonts.css';
+body {
+    width: 1020px;
+    padding: 0;
+    margin: 0;
+}
+.Quote {
+    background-color: #f06c64;
+    padding: 35px 40px 48px 40px;
+    position: relative;
+}
+.Quote_title {
+    color: #f0d8d9;
+    font-size: 30px;
+    font-family: 'Open Lato Black';
+    margin: 25px 0 18px 0;
+}
+.Quote_text {
+    color: #f0d8d9;
+    font-size: 18px;
+    font-family: 'Open Lato Light';
+    margin: 0;
+    line-height: 30px;
+}
+.Quote_form {
+    margin: 42px 0 0 0;
+    padding: 0;
+   
+}
+.Quote_form input {
+    padding: 11px 10px 13px 14px;
+    width: 595px;
+    border-radius: 8px;
+    border: none;
+    background-color: #d6564f;
+    margin-bottom: 16px;
+    font-size: 12px;
+    font-family: 'Open Lato Regular';
+    color: #f48c8f;
+}
+.Quote_form textarea {
+    resize: none;
+    padding: 9px 36px 41px 14px;
+    width: 568px;
+    border-radius: 8px;
+    border: none;
+    background-color: #d6564f;
+    font-size: 12px;
+    font-family: 'Open Lato Regular';
+    color: #f48c8f;
+}
+input::placeholder {
+    color: #f48c8f;
+}
+textarea::placeholder {
+    color: #f48c8f;
+}
+.Quote_form button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #e0292f;
+    color: #f48c8f;
+}
+.Quote_form input:focus, .Quote_form textarea:focus {
+    outline: none;
+}
+.Quote_form button:focus {
+    outline: none;
+}
+.Quote_form button:hover {
+    opacity: 0.6;
+}
+.contact {
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    top: 200px;
+    left: 679px;
+    margin: 0;
+    padding: 0;
+
+}
+.contact_header {
+    color: #f0d8d9;
+    font-size: 18px;
+    font-family: "Open Lato Black";
+    margin-bottom: 7px;
+}
+.contact_text, .text_social {
+    color: #f0d8d9;
+    font-size: 12px;
+    font-family: 'Open Lato Regular';
+    text-align: justify;
+    line-height: 22px;
+    margin-top: 9px;
+}
+.navigate, .tube, .mail {
+    position: relative;
+}
+.text_social {
+    left: 23px;
+    top: -3px;
+    position: absolute;
+    margin: 0;
+}
+.social_icon_nav {
+    margin-left: 4px;
+}
+.social_network {
+    margin-top: 22px;
+}
+.tube {
+    margin: 3px 0;
+}
+.lineQuote {
+    position: absolute;
+    width: 1020px;
+    height: 7px;
+    background-color: #ea676b;
+    bottom: 0;
+    left: 0;
+}
