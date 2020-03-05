@@ -121,3 +121,38 @@ textarea::placeholder {
     bottom: 0;
     left: 0;
 }
+footer {
+    background-color: #2d303a;
+    position: relative;
+    padding: 40px;
+}
+.copyright {
+    width: 140px;
+    height: 30px;
+    position: absolute;
+    bottom: 36px;
+    left: 12px;
+}
+.img_copyright {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 19px;
+    left: 28px;
+}
+.text-copyright {
+    color: #666d89;
+    font-size: 12px;
+    font-family: 'Open Lato Regular';
+    position: absolute;
+    top: 4px;
+    left: 40px;
+}
+.Social-footer {
+    position: absolute;
+    right: 40px;
+    top: 22px;
+}
+.Social-footer a {
+    margin-left: 4px;
+}
